@@ -41,6 +41,7 @@ CREATE TABLE `company_details` (
 
 LOCK TABLES `company_details` WRITE;
 /*!40000 ALTER TABLE `company_details` DISABLE KEYS */;
+INSERT INTO `company_details` VALUES (49,'Shabeer Tech','Unit 27, 9-11 Nelson Street',1234556,'shab30','shab30',7,1),(52,'Shabeer Company','Unit 27, 9-11 Nelson Street',1234556,'shab38','shab38',7,1),(56,'FarahCompany','Unit 27, 9-11 Nelson Street',1234556,'fara2019','fara2019',7,0);
 /*!40000 ALTER TABLE `company_details` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -67,6 +68,7 @@ CREATE TABLE `global_admin` (
 
 LOCK TABLES `global_admin` WRITE;
 /*!40000 ALTER TABLE `global_admin` DISABLE KEYS */;
+INSERT INTO `global_admin` VALUES (49,'shabeerm007@yahoo.com','shabeer','shabeer'),(56,' farahmariam@gmail.com','farah','farah');
 /*!40000 ALTER TABLE `global_admin` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -79,4 +81,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-02-03 11:45:33
+-- Dump completed on 2019-12-18 10:06:57
